@@ -330,31 +330,38 @@ for(int i = 0; i < 5; i++)
 Console.BackgroundColor = ConsoleColor.Blue;
 Console.SetCursorPosition(0,9);
 Console.Write("          ");
-//3 dark blue squares marios shirt
-Console.BackgroundColor = ConsoleColor.DarkBlue;
-for(int i = 1; i < 4; i++)
-{
-    Console.SetCursorPosition(i*10,9);
-    Console.Write("          ");
-}
-//1 red square, marios overalls
-Console.BackgroundColor = ConsoleColor.Red;
-Console.SetCursorPosition(40,9);
-Console.Write("          ");
-//2 dark blue squares, marios shirt
-Console.BackgroundColor = ConsoleColor.DarkBlue;
-Console.SetCursorPosition(50,9);
-Console.Write("          ");
-Console.SetCursorPosition(60,9);
-Console.Write("          ");
-// 1 red square marios overall
-Console.BackgroundColor = ConsoleColor.Red;
-Console.SetCursorPosition(70,9);
+Console.SetCursorPosition(10,9);
 Console.Write("          ");
 //3 dark blue squares marios shirt
 Console.BackgroundColor = ConsoleColor.DarkBlue;
 for(int i = 0; i < 3; i++)
 {
-    Console.SetCursorPosition(80 + (i*10),9);
+    Console.SetCursorPosition(20+i*10,9);
     Console.Write("          ");
 }
+//1 red square, marios overalls
+Console.BackgroundColor = ConsoleColor.Red;
+Console.SetCursorPosition(50,9);
+Console.Write("          ");
+//2 dark blue squares, marios shirt
+Console.BackgroundColor = ConsoleColor.DarkBlue;
+Console.SetCursorPosition(60,9);
+Console.Write("          ");
+Console.SetCursorPosition(70,9);
+Console.Write("          ");
+// 1 red square marios overall
+Console.BackgroundColor = ConsoleColor.Red;
+Console.SetCursorPosition(80,9);
+Console.Write("          ");
+//3 dark blue squares marios shirt
+Console.BackgroundColor = ConsoleColor.DarkBlue;
+for(int i = 0; i < 3; i++)
+{
+    Console.SetCursorPosition(90 + (i*10),9);
+    Console.Write("          ");
+}
+//2 blue squares after mario
+Console.SetCursorPosition(120,9);
+Console.Write("          ");
+Console.SetCursorPosition(130,9);
+Console.Write("          ");
