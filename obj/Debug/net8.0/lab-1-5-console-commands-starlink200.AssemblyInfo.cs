@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-1-5-console-commands-starlink200")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01d674612d27ff8176ee4bcc67654338160f49e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a49d604df5f621fca99252cd1ea84cbff1c21c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-1-5-console-commands-starlink200")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-1-5-console-commands-starlink200")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
