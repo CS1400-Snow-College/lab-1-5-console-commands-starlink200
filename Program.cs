@@ -156,55 +156,65 @@ for(int i = 9; i < 12; i++)
 Console.BackgroundColor = ConsoleColor.Blue;
 Console.ForegroundColor = ConsoleColor.Black;
 Console.SetCursorPosition(120,4);
-Console.Write("            ");
+Console.Write("          ");
+Console.SetCursorPosition(130,4);
+Console.Write("          ");
 /********************************
 * Sixth row of color            *
 *                               *
 ********************************/
 //Print 2 squares of blue before mario
 Console.SetCursorPosition(0,5);
-Console.Write("            ");
-Console.SetCursorPosition(1,5);
-Console.Write("            ");
+Console.Write("          ");
+Console.SetCursorPosition(10,5);
+Console.Write("          ");
 //Print 1 black square, marios hair
 Console.BackgroundColor = ConsoleColor.Black;
-Console.SetCursorPosition(6,5);
-Console.Write("            ");
+Console.SetCursorPosition(20,5);
+Console.Write("          ");
 //Print 1 yellow square, marios ear
 Console.BackgroundColor = ConsoleColor.Yellow;
 Console.ForegroundColor = ConsoleColor.White;
-Console.SetCursorPosition(8,5);
-Console.Write("            ");
+Console.SetCursorPosition(30,5);
+Console.Write("          ");
 //Print 2 black squares, marios hair
 Console.BackgroundColor = ConsoleColor.Black;
-Console.SetCursorPosition(9,5);
-Console.Write("            ");
-Console.SetCursorPosition(10,5);
-Console.Write("            ");
+Console.ForegroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(40,5);
+Console.Write("          ");
+Console.SetCursorPosition(50,5);
+Console.Write("          ");
 //Print 3 yellow squares, marios face
-for(int i = 0; i < 3; i++)
+/*initial value of i will be 6 so that
+a pattern can be maintained*/
+for(int i = 6; i < 9; i++)
 {
     Console.BackgroundColor = ConsoleColor.Yellow;
     Console.ForegroundColor = ConsoleColor.White;
-    Console.SetCursorPosition(11 + i,5);
-    Console.Write("            ");
+    Console.SetCursorPosition(10*i,5);
+    Console.Write("          ");
 }
 //Print 1 black square, start of marios mustache
 Console.BackgroundColor = ConsoleColor.Black;
-Console.SetCursorPosition(13,5);
-Console.Write("            ");
+Console.ForegroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(90,5);
+Console.Write("          ");
 //Print 3 yellow squares, bottom of nose
-for(int i = 0; i < 3; i++)
+/*i must have an initial value of 10 so that when
+it is multiplied by 10 it continues the patter
+of sqaures being 10 spaces apart*/
+for(int i = 10; i < 13; i++)
 {
     Console.BackgroundColor = ConsoleColor.Yellow;
     Console.ForegroundColor = ConsoleColor.White;
-    Console.SetCursorPosition(14 + i,5);
-    Console.Write("            ");
+    Console.SetCursorPosition(10*i,5);
+    Console.Write("          ");
 }
 //Print 1 blue square after marios face
 Console.BackgroundColor = ConsoleColor.Blue;
-Console.SetCursorPosition(17,5);
-Console.Write("             ");
+Console.ForegroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(130,5);
+Console.Write("           ");
 /********************************
 * Seventh row of color          *
 *                               *
