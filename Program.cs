@@ -405,3 +405,53 @@ for(int i = 0; i < 4; i++)
 Console.BackgroundColor = ConsoleColor.Blue;
 Console.SetCursorPosition(130,10);
 Console.WriteLine("          ");
+/********************************
+* Twelfth row of color          *
+*                               *
+********************************/
+//1 blue square
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.SetCursorPosition(0,11);
+Console.WriteLine("          ");
+//2 yellow squares
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.ForegroundColor = ConsoleColor.White;
+Console.SetCursorPosition(10,11);
+Console.Write("          ");
+Console.SetCursorPosition(20,11);
+Console.Write("          ");
+//2 dark blue squares
+Console.BackgroundColor = ConsoleColor.DarkBlue;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(30,11);
+Console.Write("          ");
+Console.SetCursorPosition(40,11);
+Console.Write("          ");
+//4 red squares
+Console.BackgroundColor = ConsoleColor.Red;
+for(int i = 0; i < 4; i++)
+{
+    Console.SetCursorPosition(50+i*10,11);
+    Console.Write("          ");
+}
+//2 dark blue squares
+Console.BackgroundColor = ConsoleColor.DarkBlue;
+Console.SetCursorPosition(90,11);
+Console.Write("          ");
+Console.SetCursorPosition(100,11);
+Console.Write("          ");
+//2 yellow squares
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.ForegroundColor = ConsoleColor.White;
+Console.SetCursorPosition(110,11);
+Console.Write("          ");
+Console.SetCursorPosition(120,11);
+Console.Write("          ");
+//1 blue square
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.SetCursorPosition(130,11);
+Console.WriteLine("          ");
+/********************************
+* Thirteenth row of color       *
+*                               *
+********************************/
