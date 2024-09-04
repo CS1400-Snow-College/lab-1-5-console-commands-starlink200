@@ -109,48 +109,53 @@ for(int i = 10; i < 14; i++)
 ********************************/
 //Prints 2 sqaures of blue before mario
 Console.SetCursorPosition(0, 4);
-Console.Write("            ");
-Console.SetCursorPosition(4, 4);
-Console.Write("            ");
+Console.Write("          ");
+Console.SetCursorPosition(10, 4);
+Console.Write("          ");
 //Prints 1 square of black, marios hair
 Console.BackgroundColor = ConsoleColor.Black;
-Console.SetCursorPosition(6,4);
-Console.Write("            ");
+Console.SetCursorPosition(20,4);
+Console.Write("          ");
 //Prints 1 sqaure of yellow, marios ear
 Console.BackgroundColor = ConsoleColor.Yellow;
 Console.ForegroundColor = ConsoleColor.White;
-Console.SetCursorPosition(8,4);
-Console.Write("            ");
+Console.SetCursorPosition(30,4);
+Console.Write("          ");
 //Prints 1 sqaure of black, marios hair
 Console.BackgroundColor = ConsoleColor.Black;
 Console.ForegroundColor = ConsoleColor.Black;
-Console.SetCursorPosition(9,4);
-Console.Write("            ");
+Console.SetCursorPosition(40,4);
+Console.Write("          ");
 //prints 3 squares of yellow, marios skin
-for(int i = 0; i < 3; i++)
+/*must start at the value of 5 so that when multiplied it
+is equivalent to 50 continueing the block pattern */
+for(int i = 5; i < 8; i++)
 {
     Console.BackgroundColor = ConsoleColor.Yellow;
     Console.ForegroundColor = ConsoleColor.White;
-    Console.SetCursorPosition(10 + i,4);
-    Console.Write("            ");
+    Console.SetCursorPosition(10*i,4);
+    Console.Write("          ");
 }
 //Prints 1 sqaure of black, marios eye
 Console.BackgroundColor = ConsoleColor.Black;
 Console.ForegroundColor = ConsoleColor.Black;
-Console.SetCursorPosition(12,4);
-Console.Write("            ");
+Console.SetCursorPosition(80,4);
+Console.Write("          ");
 //prints 3 squares of yellow, part of marios nose
-for(int i = 0; i < 3; i++)
+/*i must have an initial value of 9 so that when
+it is multiplied by 10 it continues the patter
+of sqaures being 10 spaces apart*/
+for(int i = 9; i < 12; i++)
 {
     Console.BackgroundColor = ConsoleColor.Yellow;
     Console.ForegroundColor = ConsoleColor.White;
-    Console.SetCursorPosition(13 + i,4);
-    Console.Write("            ");
+    Console.SetCursorPosition(10*i,4);
+    Console.Write("          ");
 }
 //Prints block of blue after mario
 Console.BackgroundColor = ConsoleColor.Blue;
 Console.ForegroundColor = ConsoleColor.Black;
-Console.SetCursorPosition(16,4);
+Console.SetCursorPosition(120,4);
 Console.Write("            ");
 /********************************
 * Sixth row of color            *
