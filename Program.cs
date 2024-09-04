@@ -479,7 +479,7 @@ Console.SetCursorPosition(50, 12);
 Console.Write("          ");
 //2 red squares
 Console.BackgroundColor = ConsoleColor.Red;
-Console.SetCursorPosition(60, 11);
+Console.SetCursorPosition(60, 12);
 Console.Write("          ");
 Console.SetCursorPosition(70, 12);
 Console.Write("          ");
