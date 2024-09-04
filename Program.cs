@@ -262,23 +262,67 @@ Console.Write("          ");
 //Print 4 blue Squares
 Console.BackgroundColor = ConsoleColor.Blue;
 Console.SetCursorPosition(0,7);
-Console.Write("            ");
-for(int i = 0; i < 3; i++)
+Console.Write("          ");
+for(int i = 1; i < 4; i++)
 {
-    Console.SetCursorPosition(1 + i, 7);
-    Console.Write("            ");
+    Console.SetCursorPosition(10*i, 7);
+    Console.Write("          ");
 }
 //print 7 yellow squares, bottom of marios face
 Console.BackgroundColor = ConsoleColor.Yellow;
 Console.ForegroundColor = ConsoleColor.White;
-for(int i = 0; i < 7; i++)
+/*To keep the pattern of each row being 10
+spaces long, i will be initialized at 4*/
+for(int i = 4; i < 11; i++)
 {
-    Console.SetCursorPosition(4 + i, 7);
-    Console.Write("            ");
+    Console.SetCursorPosition(10*i, 7);
+    Console.Write("          ");
 }
 //Print 3 blue squares
+Console.BackgroundColor = ConsoleColor.Blue;
+for(int i = 11; i < 14; i++)
+{
+    Console.SetCursorPosition(10*i, 7);
+    Console.Write("          ");
+}
+/********************************
+* Ninth row of color            *
+*                               *
+********************************/
+//Print 3 blue squares before mario
+Console.BackgroundColor = ConsoleColor.Blue;
 for(int i = 0; i < 3; i++)
 {
-    Console.SetCursorPosition(8 + i, 7);
-    Console.Write("            ");
+    Console.SetCursorPosition(10*i,8);
+    Console.Write("          ");
 }
+//Print 2 dark blue squares marios shirt
+Console.BackgroundColor = ConsoleColor.DarkBlue;
+Console.SetCursorPosition(30,8);
+Console.Write("          ");
+Console.SetCursorPosition(40,8);
+Console.Write("          ");
+//Print 1 red square, marios overalls
+Console.BackgroundColor = ConsoleColor.Red;
+Console.SetCursorPosition(50,8);
+Console.Write("          ");
+//print 3 dark blue squares, marios shirt
+Console.BackgroundColor = ConsoleColor.DarkBlue;
+Console.SetCursorPosition(60,8);
+Console.Write("          ");
+Console.SetCursorPosition(70,8);
+Console.Write("          ");
+Console.SetCursorPosition(80,8);
+Console.Write("          ");
+//print 5 blue squares, after mario
+Console.BackgroundColor = ConsoleColor.Blue;
+for(int i = 0; i < 5; i++)
+{
+    //adding 90 because that is where the pattern left off before
+    Console.SetCursorPosition((10*i)+90,8);
+    Console.Write("          ");
+}
+/********************************
+* Tenth row of color            *
+*                               *
+********************************/
