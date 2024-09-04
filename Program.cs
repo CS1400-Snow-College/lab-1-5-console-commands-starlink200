@@ -582,5 +582,50 @@ internal class Program
             Console.SetCursorPosition(10 * i + 110, 14);
             Console.Write("          ");
         }
+        /********************************
+        * Sixteenth row of color        *
+        *                               *
+        ********************************/
+        //2 blue squares
+        Console.BackgroundColor = ConsoleColor.Blue;
+        Console.SetCursorPosition(0, 15);
+        Console.Write("          ");
+        Console.SetCursorPosition(10, 15);
+        Console.Write("          ");
+        //3 brown squares
+        for (int i = 0; i < 3; i++)
+        {
+            Console.BackgroundColor = ConsoleColor.DarkGray;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.SetCursorPosition(10 * i + 20, 15);
+            Console.Write("          ");
+        }
+        //3 blue squares
+        for (int i = 0; i < 3; i++)
+        {
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Black;
+            Console.SetCursorPosition(10 * i + 50, 15);
+            Console.Write("          ");
+        }
+        //3 brown squares
+        for (int i = 0; i < 3; i++)
+        {
+            Console.BackgroundColor = ConsoleColor.DarkRed;
+            Console.BackgroundColor = ConsoleColor.DarkGray;
+            Console.SetCursorPosition(10 * i + 80, 15);
+            Console.Write("          ");
+        }
+        //3 blue squares
+        for (int i = 0; i < 3; i++)
+        {
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.SetCursorPosition(10 * i + 110, 15);
+            Console.Write("          ");
+        }
+        /********************************
+        * Sixteenth row of color        *
+        *                               *
+        ********************************/
     }
 }
