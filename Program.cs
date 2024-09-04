@@ -372,7 +372,7 @@ Console.Write("          ");
 //1 blue square
 Console.BackgroundColor = ConsoleColor.Blue;
 Console.SetCursorPosition(0,10);
-Console.WriteLine("          ");
+Console.Write("          ");
 //4 dark blue squares
 Console.BackgroundColor = ConsoleColor.DarkBlue;
 for(int i = 0; i < 4; i++)
@@ -404,7 +404,7 @@ for(int i = 0; i < 4; i++)
 //1 blue square
 Console.BackgroundColor = ConsoleColor.Blue;
 Console.SetCursorPosition(130,10);
-Console.WriteLine("          ");
+Console.Write("          ");
 /********************************
 * Twelfth row of color          *
 *                               *
@@ -412,7 +412,7 @@ Console.WriteLine("          ");
 //1 blue square
 Console.BackgroundColor = ConsoleColor.Blue;
 Console.SetCursorPosition(0,11);
-Console.WriteLine("          ");
+Console.Write("          ");
 //2 yellow squares
 Console.BackgroundColor = ConsoleColor.Yellow;
 Console.ForegroundColor = ConsoleColor.White;
@@ -450,8 +450,93 @@ Console.Write("          ");
 //1 blue square
 Console.BackgroundColor = ConsoleColor.Blue;
 Console.SetCursorPosition(130,11);
-Console.WriteLine("          ");
+Console.Write("          ");
 /********************************
 * Thirteenth row of color       *
 *                               *
 ********************************/
+//1 blue square
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.SetCursorPosition(0, 12);
+Console.Write("          ");
+//3 yellow squares, marios hand
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.ForegroundColor = ConsoleColor.White;
+Console.SetCursorPosition(10, 12);
+Console.Write("          ");
+Console.SetCursorPosition(20, 12);
+Console.Write("          ");
+Console.SetCursorPosition(30, 12);
+Console.Write("          ");
+//1 red square
+Console.BackgroundColor = ConsoleColor.Red;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(40, 12);
+Console.Write("          ");
+//1 gold square, marios button
+Console.BackgroundColor = ConsoleColor.DarkYellow;
+Console.SetCursorPosition(50, 12);
+Console.Write("          ");
+//2 red squares
+Console.BackgroundColor = ConsoleColor.Red;
+Console.SetCursorPosition(60, 11);
+Console.Write("          ");
+Console.SetCursorPosition(70, 12);
+Console.Write("          ");
+//1 gold square, marios button
+Console.BackgroundColor = ConsoleColor.DarkYellow;
+Console.SetCursorPosition(80, 12);
+Console.Write("          ");
+//1 red square
+Console.BackgroundColor = ConsoleColor.Red;
+Console.SetCursorPosition(90, 12);
+Console.Write("          ");
+//3 yellow squares, marios hand
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.ForegroundColor = ConsoleColor.White;
+Console.SetCursorPosition(100, 12);
+Console.Write("          ");
+Console.SetCursorPosition(110 , 12);
+Console.Write("          ");
+Console.SetCursorPosition(120, 12);
+Console.Write("          ");
+//1 blue square
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(130, 12);
+Console.Write("          ");
+/********************************
+* Fourteenth row of color       *
+*                               *
+********************************/
+//1 blue square
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.SetCursorPosition(0, 13);
+Console.Write("          ");
+//2 yellow square, marios hand
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.ForegroundColor = ConsoleColor.White;
+Console.SetCursorPosition(10, 13);
+Console.Write("          ");
+Console.SetCursorPosition(20, 13);
+Console.Write("          ");
+//8 red squares
+Console.BackgroundColor = ConsoleColor.Red;
+Console.ForegroundColor = ConsoleColor.Black;
+for(int i = 0; i < 8; i++)
+{
+    Console.SetCursorPosition(30+i*10,13);
+    Console.Write("          ");
+}
+//2 yellow squares, marios hand
+Console.BackgroundColor = ConsoleColor.Yellow;
+Console.ForegroundColor = ConsoleColor.White;
+Console.SetCursorPosition(110, 13);
+Console.Write("          ");
+Console.SetCursorPosition(120, 13);
+Console.Write("          ");
+//1 blue square
+Console.BackgroundColor = ConsoleColor.Blue;
+Console.ForegroundColor = ConsoleColor.Black;
+Console.SetCursorPosition(130, 13);
+Console.Write("          ");
